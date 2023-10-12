@@ -16,8 +16,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float climbSpeed;
     [SerializeField] float climbMultiplier;
 
+    //Internal Variables
     float startGravity;
-
     Vector2 moveInput;
     Rigidbody2D rb;
     Animator animator;
